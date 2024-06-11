@@ -1,0 +1,44 @@
+.dark-copy{
+color: #000;
+width: 45%;
+position: absolute;
+top: 85%;
+transform: translate(0 , -50%);
+transform-origin: bottom;
+padding-left: 20px;
+transition: all 6s ease 0;
+}
+.slider-left{
+color: #000;
+display: none;
+width: 100%;
+top: 0;
+left: 0;
+transform: none;
+padding: 4rem;
+border: 1px solid #000;
+}
+.dark-copy div{
+    opacity: 0;
+}
+.shop-btn{
+background-color: rgba(239, 76, 11, 0.979);
+border: 1px solid white;
+padding: 10px;
+border-radius: 20px;
+color: rgb(255, 255, 255);
+font-size: 12px;
+font-weight: 500;
+margin-top: 20px;
+}
+.active{
+    display: block;
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(214, 37, 37, 0.979);
+    border: 1px solid rgb(255, 255, 255);
+    display: block;
+    cursor: pointer;
+}
